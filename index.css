@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
+#logo img {
+  height: 250px;
+}
+
+#denomination {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+
+#mission {
+
+}
+
+#events {
+
+}
+
+#events__header {
+
+}
+
+.event {
+}
+
+.eventHeader {
+
+}
+
+.eventWebsite, .eventDescription {
+  font-size: 18px;
+}
+
+.eventWebsite {
+  margin-bottom: 10px;
+}
+
+.eventDatesAndLocation {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.eventDatesAndLocation__dates {
+
+}
+
+.eventDatesAndLocation__location {
+  margin-left: 20px;
+}
+
+.eventDescription {
+
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  min-height: 100px;
+}
